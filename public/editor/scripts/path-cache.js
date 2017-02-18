@@ -95,7 +95,7 @@ define(function(require) {
     };
 
     if (operation !== SYNC_OPERATION_RENAME_FOLDER) {
-      items.files[fn](item);
+    //  items.files[fn](item);
     } else {
       // Here item will look something like:
       // {

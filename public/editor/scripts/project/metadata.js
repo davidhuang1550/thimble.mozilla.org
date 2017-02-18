@@ -108,11 +108,11 @@ define(function(require) {
           return callback(err);
         }
 
-        value = value || { paths: {} };
-        value.paths[path] = id;
-        fs.setxattr(root, PROJECT_META_KEY, value, function(err) {
+      //  value = value || { paths: {} };
+      //  value.paths[path] = id;
+        /*fs.setxattr(root, PROJECT_META_KEY, value, function(err) {
           callback(err);
-        });
+        });*/
       });
     });
   }

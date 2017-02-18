@@ -347,7 +347,7 @@ define(function(require) {
         filename = filename.substring(0,7) + "..." + filename.substring(filename.length-8,filename.length);
       }
       $("#editor-pane-nav-filename").text(filename);
-      $("#editor-pane-nav-filename").attr("title", fullFilename);
+      $("#editor-pane-nav-filename").attr("title", "fullFilename");
     }
 
     // Hook up event listeners
