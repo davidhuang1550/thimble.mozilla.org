@@ -108,6 +108,7 @@ define(function(require) {
     function setTheme(theme) {
       if(theme === "light-theme") {
         bramble.useLightTheme();
+        console.log(bramble.getFilenameProvider());
         lightThemeUI();
         analytics.event("LightTheme");
       } else if(theme === "dark-theme") {
